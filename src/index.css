@@ -1,0 +1,29 @@
+.Event {
+  padding: 20px;
+  border-radius: 15px; 
+  text-align: center; 
+  margin: 10px 0; 
+  background-color: rgba(255, 255, 255, 0.8); 
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Event:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.black {
+  background-color: rgb(78, 50, 136); 
+  color: white; 
+}
+
+.black h3 {
+  margin: 0; 
+  font-weight: bold; 
+}
+
+.black p {
+  font-size: 0.9rem; 
+  line-height: 1.4;
+}

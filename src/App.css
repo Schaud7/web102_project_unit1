@@ -1,0 +1,80 @@
+
+.App {
+  text-align: center;
+  background-image: url('your-background-image-url.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  min-height: 100vh; 
+  color: white; 
+  font-family: 'Inter', sans-serif; 
+  padding: 20px; 
+}
+
+
+h1 {
+  font-size: 2.5rem; 
+  font-weight: bold; 
+  margin: 20px 0; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+h2 {
+  font-size: 1.8rem; 
+  font-weight: bold; 
+  margin: 10px 0; 
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); 
+}
+
+
+.Card {
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  margin-top: 20px; 
+}
+
+
+.Event {
+  padding: 20px; 
+  border-radius: 20px; 
+  text-align: center; 
+  margin: 10px; 
+  background-color: rgba(78, 50, 136, 0.8); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  transition: transform 0.2s; 
+}
+
+.Event:hover {
+  transform: scale(1.05); 
+}
+
+
+button {
+  padding: 10px 15px; 
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  margin-top: 10px; 
+  transition: background-color 0.3s; 
+}
+
+button:hover {
+  background-color: #45a049; 
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem; 
+  }
+
+  h2 {
+    font-size: 1.5rem; 
+  }
+
+  .Event {
+    width: 100%;
+  }
+}
