@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/FUej6rY.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='<blockquote class="imgur-embed-pub" lang="en" data-id="FUej6rY" data-context="false" ><a href="//imgur.com/FUej6rY"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
 <!-- Recommended tools:
